@@ -1,0 +1,9 @@
+{
+  "name": "tasktamer-bot",
+  "version": "1.0.0",
+  "main": "api/interactions.js",
+  "type": "module",
+  "dependencies": {
+    "tweetnacl": "^1.0.3"
+  }
+}
