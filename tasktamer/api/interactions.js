@@ -1,6 +1,6 @@
 import nacl from 'tweetnacl';
 
-const PUBLIC_KEY = process.env.DISCORD_PUBLIC_KEY;
+const PUBLIC_KEY = process.env.e113a4f2a23d80222b76379dad27c80e70b67bb969421666533841cb795baa03;
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).send('Method Not Allowed');
